@@ -1,0 +1,43 @@
+<head>
+    <link rel="myscripts.js" href="file.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head><div class="wrapper">
+
+    <div class="calculator">
+      <form>
+        <div id="screen">
+          <input type="button" name="answer">
+        </div>
+        <div class="buttons">
+          <div id="buttons-inner">
+            <input type="button" value="7" onclick="form.answer.value += '7'">
+            <input type="button" value="8" onclick="form.answer.value += '8'">
+            <input type="button" value="9" onclick="form.answer.value += '9'">
+            <input type="button" value="/" onclick="form.answer.value += '/'">
+          </div>
+          <div id="buttons-inner">
+            <input type="button" value="4" onclick="form.answer.value += '4'">
+            <input type="button" value="5" onclick="form.answer.value += '5'">
+            <input type="button" value="6" onclick="form.answer.value += '6'">
+            <input type="button" value="*" onclick="form.answer.value += '*'">
+          </div>
+          <div id="buttons-inner">
+            <input type="button" value="1" onclick="form.answer.value += '1'">
+            <input type="button" value="2" onclick="form.answer.value += '2'">
+            <input type="button" value="3" onclick="form.answer.value += '3'">
+            <input type="button" value="-" onclick="form.answer.value += '-'">
+          </div>
+          <div id="buttons-inner">
+            <input type="button" value="0" onclick="form.answer.value += '0'">
+            <input type="button" value="." onclick="form.answer.value += '.'">
+            <input type="button" value="+" onclick="form.answer.value += '+'">
+            <input type="button" value="=" onclick="form.answer.value = eval(form.answer.value)" id="equal">
+          </div>
+          <div id="button-l">
+            <input type="button" value="clear" onclick="form.answer.value = ''" id="clear">
+            <input type="button" value="Theme" id="theme">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
